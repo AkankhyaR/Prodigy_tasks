@@ -1,0 +1,70 @@
+body {
+	padding-top: 15px;
+	background-color: rgb(189, 78, 189); /* Background set to purple */
+	color: white; /* Text color set to white */
+  }
+  
+  .center{
+   margin-left: auto !important;
+	margin-right: auto !important;
+   float: none !important;
+   text-align: center;
+  }
+  
+  .hidden{
+	  visibility:visible;
+  
+  }
+  
+  .pointable{ 
+  cursor: hand; cursor: pointer; 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  
+  .scrollable {
+	  height: 10em;
+	  overflow: auto;
+  }
+  
+  .paused{
+	  color:orange;
+  }
+  
+  #timeTable td, #timeTable th{
+	  font-weight:bold;
+	  font-size:200%;
+	  color: white; /* Table text also set to white for consistency */
+  }
+  
+  .lapCount{
+	  text-align:right !important;
+  }
+  
+  @media only screen
+  and (min-device-width : 320px)
+  {
+  /* Styles */
+	  #time{
+		  font-size:5rem;
+		  margin: 30px 0px 40px;
+		  color: white; /* Ensure time text is white as well */
+	  }
+  
+  }
+  @media only screen
+  and (min-device-width : 768px)
+  {
+  /* Styles */
+	  #time{
+		  font-size:10rem !important;
+		  margin:5px 0 5px 0; padding: 50px 0px 80px 0px;
+		  color: white; /* Ensure time text is white as well */
+	  }
+  
+  }
+x  
